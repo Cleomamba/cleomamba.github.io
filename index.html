@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamba Thandeka - Personal Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section">
+        <div class="container">
+            <h1>Welcome to My Personal Website</h1>
+            <p> I'm Thandeka Mamba a recent BSc Information Technology graduate from UNESWA
+                <p>Here, you will find acollection of my projects, skills, and experiences.</p>
+            </p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="ndeka.jpg" alt="Profile Picture" class="profile-pic"> 
+            <p>Hello! I'm Mamba Thandeka Goodness, a passionate and detail-oriented Information Technology
+                graduate from the University of Eswatini (UNESWA). I hold a Bachelor of science degree in
+                Information Technology, where i gained strong foundation in programming, system design,
+                and data analysis.</p>
+            <P> My interests lie in machine learning, web development, and building practical tech solutions
+                that resolve real-worls problems. I enjoy working with projects that combine analytic thinking
+                 with creativity; like predictive maintenance system, web apps, and automation tools.</P>
+            <p> I'm currently seeking opportunities to grow as a developer, contribute to innovative projects,
+                and collaborate with like-minded professionals. Explore my projects to learn more about my wok.
+            </p>     
+            <p><strong>My skills include</strong>:</p>
+            <ul>
+                <li>web development</li>
+                <li> machine learning</li>
+                <li>Databases</li>
+                <li>system administration and maintenace</li>
+                <li>system analysis</li>
+                <li>Data visualization, and creating interactive dashboards using tableau</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="predictive.png" alt="Project 1">
+                    <h3>Predictive maintenance system</h3>
+                    <p>This project uses machine learning to detect and predict failure in laptops
+                        and desk tops based on system metrics.</p>
+                        <p><strong>Technologies:</strong> python, XGBoost, FastAPI, Isolation forest</p>
+                        <a href="https://github.com/cleomamba/predictive-maintenance" target="_blank"> view on github</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="flight.jpg" alt="Project 2">
+                    <h3>Flight booking system</h3>
+                    <p> A simple flight booking web app built with PHP and mySQL.
+                        it allows users to create an account to be able to book a flight, as well
+                        being able to see available sits on the plan.
+                    </p>
+                    <p><strong>Technologies:</strong>PHP, mySQL, HTML, CSS, REST API.</p>
+                    <a href="https://github.com/cleomamba/flight-booking" target="_blank"> view on github</a>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <form action="https://formsubmit.co/cleomamba@email.com" method="POST" class="contact-form">
+            
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://cleomamba.github.io/thankyou.html">
+      
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button class="btn" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+      
+
+    <script src="index.js"></script>
+</body>
+</html>
